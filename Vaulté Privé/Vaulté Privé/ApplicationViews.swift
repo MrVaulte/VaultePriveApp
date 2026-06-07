@@ -3605,7 +3605,7 @@ struct NewConversationSheet: View {
                                     accent: Color.green.opacity(0.9),
                                     icon: "lock.fill"
                                 )
-                                if subscription.hasVerifiedOtpLimitedAccess {
+                                if subscription.hasVerifiedOtpAccess {
                                     modeCard(
                                         mode: .verifiedOtp,
                                         title: "One Time Pad",
@@ -3731,7 +3731,7 @@ struct NewConversationSheet: View {
                 }
                 .navigationTitle(VaulteL.t("newchat.title"))
                 .navigationBarTitleDisplayMode(.inline)
-                .onChange(of: subscription.hasVerifiedOtpLimitedAccess) { _, hasAccess in
+                .onChange(of: subscription.hasVerifiedOtpAccess) { _, hasAccess in
                     if !hasAccess, selectedChatMode == .verifiedOtp {
                         selectedChatMode = .standard
                     }
@@ -3754,7 +3754,7 @@ struct NewConversationSheet: View {
         if subscription.hasVerifiedOtpFullAccess {
             return "One Time Pad chat with single-use pads."
         }
-        if subscription.hasVerifiedOtpLimitedAccess {
+        if subscription.hasVerifiedOtpAccess {
             return "Single-use pad chat. Premier can prepare it, Elite can activate it."
         }
         return "Single-use pad chat. Available with Elite."
@@ -5257,14 +5257,10 @@ struct ChatScreen: View {
                                 }
 
                                 otpGlassSection(title: "Capacity") {
-                                    otpFingerprintRow(
-                                        title: "Send pad remaining",
-                                        value: "~\(approximateOtpCharacterCount(for: send.remainingBytes)) symbols"
-                                    )
-                                    otpFingerprintRow(
-                                        title: "Receive pad remaining",
-                                        value: "~\(approximateOtpCharacterCount(for: receive.remainingBytes)) symbols"
-                                    )
+                                    let sendCapacity = "~\(approximateOtpCharacterCount(for: send.remainingBytes)) symbols"
+                                    let recvCapacity = "~\(approximateOtpCharacterCount(for: receive.remainingBytes)) symbols"
+                                    otpFingerprintRow(title: "Send pad remaining", value: sendCapacity)
+                                    otpFingerprintRow(title: "Receive pad remaining", value: recvCapacity)
                                     Text("Approximate text capacity. Simple text is close to 1 byte per symbol; emoji and some languages can consume more.")
                                         .font(VaulteTypography.swiftUIFont(size: 12, weight: .regular))
                                         .foregroundStyle(.white.opacity(0.58))
@@ -5282,7 +5278,7 @@ struct ChatScreen: View {
                                         }
                                     }
                                 }
-                                .disabled(!subscription.hasVerifiedOtpLimitedAccess)
+                                .disabled(!subscription.hasVerifiedOtpAccess)
 
                                 if let exportURL = vm.verifiedOtpPendingExportURL {
                                     // Use UIActivityViewController (not ShareLink) so we get a
@@ -5321,12 +5317,12 @@ struct ChatScreen: View {
                                         conversationId: conversationId
                                     )
                                 }
-                                .disabled(verifiedOtpImportCenter.pendingURL == nil || !subscription.hasVerifiedOtpLimitedAccess)
+                                .disabled(verifiedOtpImportCenter.pendingURL == nil || !subscription.hasVerifiedOtpAccess)
 
                                 otpActionButton("Choose .vaultepad from Files", accent: .white) {
                                     showVerifiedOtpFileImporter = true
                                 }
-                                .disabled(!subscription.hasVerifiedOtpLimitedAccess)
+                                .disabled(!subscription.hasVerifiedOtpAccess)
 
                                 if vm.verifiedOtpStateSummary?.sendBundle != nil,
                                    vm.verifiedOtpStateSummary?.receiveBundle != nil,
@@ -5338,7 +5334,7 @@ struct ChatScreen: View {
                                 }
                             }
 
-                            if !subscription.hasVerifiedOtpLimitedAccess {
+                            if !subscription.hasVerifiedOtpAccess {
                                 otpGlassSection(title: "Access") {
                                     Text("Verified OTP is unavailable on this plan. Elite unlocks the full stronger mode, while Premier can prepare and import limited bundles.")
                                         .font(VaulteTypography.swiftUIFont(size: 12, weight: .regular))
@@ -7477,7 +7473,7 @@ struct SafetyNumberSheet: View {
                             .foregroundStyle(encryptionLabel.color.opacity(0.6))
                     }
 
-                    if !isGroupConversation, subscription.hasVerifiedOtpLimitedAccess, onOpenOneTimePad != nil {
+                    if !isGroupConversation, subscription.hasVerifiedOtpAccess, onOpenOneTimePad != nil {
                         Button {
                             dismiss()
                             onOpenOneTimePad?()
