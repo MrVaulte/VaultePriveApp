@@ -704,6 +704,11 @@ actor OTPStore {
         try clearDeletedConversationMarker(conversationId: id)
     }
 
+    /// Delete only messages in a conversation, keeping the conversation entry and keys intact.
+    func deleteConversationMessages(conversationId: UUID) throws {
+        try run("DELETE FROM messages WHERE conversation_id = ?;", [conversationId.uuidString])
+    }
+
     func deleteConversation(_ conversationId: UUID) throws {
         try ensureDeletedConversationsTable()
         try markConversationDeleted(conversationId, at: Date())

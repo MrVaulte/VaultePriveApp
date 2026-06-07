@@ -76,6 +76,9 @@ struct VerifiedOtpBundleFile: Codable, Equatable, Sendable {
 struct VerifiedOtpBundleImportResult: Equatable, Sendable {
     let descriptor: VerifiedOtpBundleDescriptor
     let padBytes: Data
+    /// Sender's X25519 identity public key (Base64), extracted from the bundle header
+    /// during import. Used by TOFU peer-binding verification in ChatViewModel.
+    let senderIdentityPublicKeyB64: String
 }
 
 struct VerifiedOtpEnvelope: Codable, Equatable, Sendable {

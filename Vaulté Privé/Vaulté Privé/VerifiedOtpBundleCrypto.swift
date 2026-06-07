@@ -251,7 +251,7 @@ enum VerifiedOtpBundleCrypto {
             totalBytes: header.totalBytes,
             fingerprint: fingerprint
         )
-        return VerifiedOtpBundleImportResult(descriptor: descriptor, padBytes: padBytes)
+        return VerifiedOtpBundleImportResult(descriptor: descriptor, padBytes: padBytes, senderIdentityPublicKeyB64: header.senderIdentityPublicKeyB64)
     }
 
     static func fileName(for descriptor: VerifiedOtpBundleDescriptor) -> String {

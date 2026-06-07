@@ -146,7 +146,7 @@ final class ChatViewModel {
     }
 
     var hasVerifiedOtpLimitedAccess: Bool {
-        VaulteSubscriptionManager.shared.hasVerifiedOtpLimitedAccess
+        VaulteSubscriptionManager.shared.hasVerifiedOtpAccess
     }
 
     var hasVerifiedOtpFullAccess: Bool {
@@ -2040,7 +2040,7 @@ final class ChatViewModel {
             // No peer pinned yet — accept and the TOFU pin will be set on first message.
             return
         }
-        let bundleSenderIdentityB64 = imported.descriptor.senderIdentityPublicKeyB64
+        let bundleSenderIdentityB64 = imported.senderIdentityPublicKeyB64
         if let pinnedKey = LocalIdentityStore.pinnedPeerIdentityKey(for: peerId) {
             // Peer already pinned: bundle sender key must match exactly.
             guard pinnedKey == bundleSenderIdentityB64 else {
@@ -2268,7 +2268,7 @@ extension ChatViewModel {
     static func parseStoredPlaintext(_ plaintext: String?) -> (text: String?, image: Data?) {
         guard let p = plaintext, !p.isEmpty else { return (nil, nil) }
         guard p.first == "{", let pdata = p.data(using: .utf8) else {
-            return (p, nil, nil)
+            return (p, nil)
         }
         // Try image payload
         if let obj = try? JSONDecoder().decode(VaulteChatImagePayload.self, from: pdata),
@@ -2278,7 +2278,7 @@ extension ChatViewModel {
            !img.isEmpty {
             let cap = obj.c?.trimmingCharacters(in: .whitespacesAndNewlines)
             let textPart = (cap?.isEmpty == false) ? cap : nil
-            return (textPart, img, nil)
+            return (textPart, img)
         }
         return (p, nil)
     }
