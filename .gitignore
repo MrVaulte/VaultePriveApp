@@ -1,0 +1,23 @@
+.DS_Store
+.build/
+build/
+DerivedData/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+xcuserdata/
+.idea/
+node_modules/
+Secrets.xcconfig
+*.log
+
+
+# Excluded from source-available release
+Vaulté\ Privé/Messages\ 2/
+
+# Excluded from source-available release
+vaulté-prive-android/
+.cursor/
+"relay-server/package 2.json"
+"Vaulté Privé/Vaulté Privé/VaulteDisplayName 2.swift"
+"Vaulté Privé/Vaulté Privé/ApplicationViews.swift.backup"

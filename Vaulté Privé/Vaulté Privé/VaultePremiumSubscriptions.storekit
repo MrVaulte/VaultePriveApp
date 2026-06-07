@@ -1,0 +1,178 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
+  "identifier" : "7F3C9A1E",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_applicationInternalID" : "0",
+    "_developerTeamID" : "",
+    "_failTransactionsEnabled" : false,
+    "_lastSynchronizedDate" : 785678901.123456,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+
+    ],
+    "_timeRate" : 0
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "4E8B2D0C",
+      "localizations" : [
+
+      ],
+      "name" : "Vaulte Premium",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "150.00",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "A1B1C1D1",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Encrypted backup and local message search.",
+              "displayName" : "Premier (yearly)",
+              "locale" : "en_US"
+            },
+            {
+              "description" : "Шифрованный бэкап и локальный поиск по сообщениям.",
+              "displayName" : "Premier (год)",
+              "locale" : "ru_RU"
+            }
+          ],
+          "productID" : "com.vaulteprive.premium.premier.annual",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Premier Annual",
+          "subscriptionGroupID" : "4E8B2D0C",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "15.00",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "A1B1C1D2",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Encrypted backup and local message search.",
+              "displayName" : "Premier (monthly)",
+              "locale" : "en_US"
+            },
+            {
+              "description" : "Шифрованный бэкап и локальный поиск по сообщениям.",
+              "displayName" : "Premier (месяц)",
+              "locale" : "ru_RU"
+            }
+          ],
+          "productID" : "com.vaulteprive.premium.premier.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Premier Monthly",
+          "subscriptionGroupID" : "4E8B2D0C",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "450.00",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "E2F2A2B2",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "One Time Pad mode, disappearing messages, screenshot and copy approvals, plus Elite device tools.",
+              "displayName" : "Elite (yearly)",
+              "locale" : "en_US"
+            },
+            {
+              "description" : "Топ-уровень: One Time Pad, исчезающие сообщения, подтверждение скриншотов/копирования и функции устройств.",
+              "displayName" : "Elite (год)",
+              "locale" : "ru_RU"
+            }
+          ],
+          "productID" : "com.vaulteprive.premium.elite.annual",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Elite Annual",
+          "subscriptionGroupID" : "4E8B2D0C",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "50.00",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "E2F2A2B3",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "One Time Pad mode, disappearing messages, screenshot and copy approvals, plus Elite device tools.",
+              "displayName" : "Elite (monthly)",
+              "locale" : "en_US"
+            },
+            {
+              "description" : "Топ-уровень: One Time Pad, исчезающие сообщения, подтверждение скриншотов/копирования и функции устройств.",
+              "displayName" : "Elite (месяц)",
+              "locale" : "ru_RU"
+            }
+          ],
+          "productID" : "com.vaulteprive.premium.elite.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Elite Monthly",
+          "subscriptionGroupID" : "4E8B2D0C",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}

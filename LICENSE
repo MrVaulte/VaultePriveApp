@@ -1,0 +1,65 @@
+Vaulté Privé Source-Available License
+
+Copyright (c) 2026 Vaulté Privé. All rights reserved.
+
+This repository is published for viewing, security audit, and private
+evaluation only. It is not an open-source release.
+
+────────────────────────────────────────
+PERMISSIONS
+────────────────────────────────────────
+
+You may:
+
+  1. Read and study the source code.
+  2. Run private, non-production builds for personal evaluation or
+     security research.
+  3. Reference or discuss the implementation in academic, journalistic,
+     or security-research contexts.
+
+────────────────────────────────────────
+RESTRICTIONS
+────────────────────────────────────────
+
+Without prior written permission from the copyright holder you may NOT:
+
+  1. Copy, redistribute, sublicense, sell, or publish this software
+     or any substantial portion of it.
+
+  2. Create derivative works intended for commercial or production use.
+
+  3. Reimplement, port, or incorporate the One Time Pad / Verified OTP
+     logic, bundle format, cryptographic workflow, or related secure-mode
+     design into any other product, service, library, or application —
+     regardless of whether the resulting code is identical.
+
+  4. Use the name "Vaulté Privé", its logo, visual identity, or any
+     confusingly similar branding in another product.
+
+────────────────────────────────────────
+CLARIFICATIONS
+────────────────────────────────────────
+
+  - Public visibility of this repository does not grant any reuse rights.
+  - The OTP / Verified OTP implementation is proprietary; the above
+    restrictions apply to independent reimplementations, not only copies.
+  - Forking on GitHub for the purpose of submitting a pull request or
+    filing an issue is permitted. Forks must not be deployed or published
+    as independent products.
+
+────────────────────────────────────────
+NO WARRANTY
+────────────────────────────────────────
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT. IN NO EVENT SHALL
+THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY
+ARISING FROM USE OF OR INABILITY TO USE THE SOFTWARE.
+
+────────────────────────────────────────
+CONTACT
+────────────────────────────────────────
+
+For licensing inquiries, security reports, or permission requests:
+  security@vaulteprive.com

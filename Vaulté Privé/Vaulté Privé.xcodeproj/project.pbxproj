@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C94EF9632F89870900EB5101 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C94EF94D2F89870800EB5101 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C94EF9542F89870800EB5101;
+			remoteInfo = "Vaulté Privé";
+		};
+		C94EF96D2F89870900EB5101 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C94EF94D2F89870800EB5101 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C94EF9542F89870800EB5101;
+			remoteInfo = "Vaulté Privé";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C94EF9552F89870800EB5101 /* Vaulté Privé.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vaulté Privé.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C94EF9622F89870900EB5101 /* Vaulté PrivéTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vaulté PrivéTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C94EF96C2F89870900EB5101 /* Vaulté PrivéUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vaulté PrivéUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C92BC13D2FBDF0FD00C40F30 /* Vaulté PrivéTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Vaulté PrivéTests";
+			sourceTree = "<group>";
+		};
+		C94EF9572F89870800EB5101 /* Vaulté Privé */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Vaulté Privé";
+			sourceTree = "<group>";
+		};
+		C94EF96F2F89870900EB5101 /* Vaulté PrivéUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Vaulté PrivéUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C94EF9522F89870800EB5101 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94EF95F2F89870900EB5101 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94EF9692F89870900EB5101 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C94EF94C2F89870800EB5101 = {
+			isa = PBXGroup;
+			children = (
+				C92BC13D2FBDF0FD00C40F30 /* Vaulté PrivéTests */,
+				C94EF9572F89870800EB5101 /* Vaulté Privé */,
+				C94EF96F2F89870900EB5101 /* Vaulté PrivéUITests */,
+				C94EF9562F89870800EB5101 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C94EF9562F89870800EB5101 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C94EF9552F89870800EB5101 /* Vaulté Privé.app */,
+				C94EF9622F89870900EB5101 /* Vaulté PrivéTests.xctest */,
+				C94EF96C2F89870900EB5101 /* Vaulté PrivéUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C94EF9542F89870800EB5101 /* Vaulté Privé */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C94EF9762F89870900EB5101 /* Build configuration list for PBXNativeTarget "Vaulté Privé" */;
+			buildPhases = (
+				C94EF9512F89870800EB5101 /* Sources */,
+				C94EF9522F89870800EB5101 /* Frameworks */,
+				C94EF9532F89870800EB5101 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C92BC13D2FBDF0FD00C40F30 /* Vaulté PrivéTests */,
+				C94EF9572F89870800EB5101 /* Vaulté Privé */,
+			);
+			name = "Vaulté Privé";
+			packageProductDependencies = (
+			);
+			productName = "Vaulté Privé";
+			productReference = C94EF9552F89870800EB5101 /* Vaulté Privé.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C94EF9612F89870900EB5101 /* Vaulté PrivéTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C94EF9792F89870900EB5101 /* Build configuration list for PBXNativeTarget "Vaulté PrivéTests" */;
+			buildPhases = (
+				C94EF95E2F89870900EB5101 /* Sources */,
+				C94EF95F2F89870900EB5101 /* Frameworks */,
+				C94EF9602F89870900EB5101 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C94EF9642F89870900EB5101 /* PBXTargetDependency */,
+			);
+			name = "Vaulté PrivéTests";
+			packageProductDependencies = (
+			);
+			productName = "Vaulté PrivéTests";
+			productReference = C94EF9622F89870900EB5101 /* Vaulté PrivéTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C94EF96B2F89870900EB5101 /* Vaulté PrivéUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C94EF97C2F89870900EB5101 /* Build configuration list for PBXNativeTarget "Vaulté PrivéUITests" */;
+			buildPhases = (
+				C94EF9682F89870900EB5101 /* Sources */,
+				C94EF9692F89870900EB5101 /* Frameworks */,
+				C94EF96A2F89870900EB5101 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C94EF96E2F89870900EB5101 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C94EF96F2F89870900EB5101 /* Vaulté PrivéUITests */,
+			);
+			name = "Vaulté PrivéUITests";
+			packageProductDependencies = (
+			);
+			productName = "Vaulté PrivéUITests";
+			productReference = C94EF96C2F89870900EB5101 /* Vaulté PrivéUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C94EF94D2F89870800EB5101 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					C94EF9542F89870800EB5101 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					C94EF9612F89870900EB5101 = {
+						CreatedOnToolsVersion = 26.4;
+						LastSwiftMigration = 2640;
+						TestTargetID = C94EF9542F89870800EB5101;
+					};
+					C94EF96B2F89870900EB5101 = {
+						CreatedOnToolsVersion = 26.4;
+						TestTargetID = C94EF9542F89870800EB5101;
+					};
+				};
+			};
+			buildConfigurationList = C94EF9502F89870800EB5101 /* Build configuration list for PBXProject "Vaulté Privé" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+				fr,
+			);
+			mainGroup = C94EF94C2F89870800EB5101;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C94EF9562F89870800EB5101 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C94EF9542F89870800EB5101 /* Vaulté Privé */,
+				C94EF9612F89870900EB5101 /* Vaulté PrivéTests */,
+				C94EF96B2F89870900EB5101 /* Vaulté PrivéUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C94EF9532F89870800EB5101 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94EF9602F89870900EB5101 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94EF96A2F89870900EB5101 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C94EF9512F89870800EB5101 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94EF95E2F89870900EB5101 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94EF9682F89870900EB5101 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C94EF9642F89870900EB5101 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C94EF9542F89870800EB5101 /* Vaulté Privé */;
+			targetProxy = C94EF9632F89870900EB5101 /* PBXContainerItemProxy */;
+		};
+		C94EF96E2F89870900EB5101 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C94EF9542F89870800EB5101 /* Vaulté Privé */;
+			targetProxy = C94EF96D2F89870900EB5101 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C94EF9742F89870900EB5101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = GC263SD9A3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C94EF9752F89870900EB5101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = GC263SD9A3;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C94EF9772F89870900EB5101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Vaulté Privé/Vaulté Privé.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GC263SD9A3;
+				ENABLE_PREVIEWS = YES;
+				EXCLUDED_SOURCE_FILE_NAMES = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "VaultePrive-Info.plist";
+				INFOPLIST_KEY_AppIdentifierPrefix = "$(AppIdentifierPrefix)";
+				INFOPLIST_KEY_CFBundleURLTypes = "{\n    CFBundleTypeRole = Editor;\n    CFBundleURLName = \"com.vaulteprive.connect\";\n    CFBundleURLSchemes =     (\n        vaulte\n    );\n}";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSAppTransportSecurity_NSAllowsArbitraryLoads = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access scans QR codes to import OTP pad material. Images are not saved to your photo library.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Face ID is used to unlock Vaulté Privé without entering your passphrase each time.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone access is required for encrypted voice calls.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "";
+				INFO_PLIST_PREFIX_HEADER = "";
+				INFO_PLIST_PREPROCESS = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACCATALYST_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 2.4;
+				"OTHER_SWIFT_FLAGS[arch=*]" = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VaultePrive.messenger;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.VaultePrive.messenger;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphonesimulator*]" = com.VaultePrive.messenger;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.vaultePrive.messengermac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[arch=*]" = "$(inherited)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C94EF9782F89870900EB5101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Vaulté Privé/Vaulté PrivéRelease.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GC263SD9A3;
+				ENABLE_PREVIEWS = YES;
+				EXCLUDED_SOURCE_FILE_NAMES = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "VaultePrive-Info.plist";
+				INFOPLIST_KEY_AppIdentifierPrefix = "$(AppIdentifierPrefix)";
+				INFOPLIST_KEY_CFBundleURLTypes = "{\n    CFBundleTypeRole = Editor;\n    CFBundleURLName = \"com.vaulteprive.connect\";\n    CFBundleURLSchemes =     (\n        vaulte\n    );\n}";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSAppTransportSecurity_NSAllowsArbitraryLoads = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access scans QR codes to import OTP pad material. Images are not saved to your photo library.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Face ID is used to unlock Vaulté Privé without entering your passphrase each time.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone access is required for encrypted voice calls.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "";
+				INFO_PLIST_PREFIX_HEADER = "";
+				INFO_PLIST_PREPROCESS = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACCATALYST_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 2.4;
+				"OTHER_SWIFT_FLAGS[arch=*]" = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VaultePrive.messenger;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.VaultePrive.messenger;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphonesimulator*]" = com.VaultePrive.messenger;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.vaultePrive.messengermac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[arch=*]" = "$(inherited)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C94EF97A2F89870900EB5101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GC263SD9A3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.VaultePrive.messengerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vaulté Privé.app/Vaulté Privé";
+			};
+			name = Debug;
+		};
+		C94EF97B2F89870900EB5101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GC263SD9A3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.VaultePrive.messengerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vaulté Privé.app/Vaulté Privé";
+			};
+			name = Release;
+		};
+		C94EF97D2F89870900EB5101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GC263SD9A3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.VaultePrive.messengerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Vaulté Privé";
+			};
+			name = Debug;
+		};
+		C94EF97E2F89870900EB5101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GC263SD9A3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.VaultePrive.messengerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Vaulté Privé";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C94EF9502F89870800EB5101 /* Build configuration list for PBXProject "Vaulté Privé" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C94EF9742F89870900EB5101 /* Debug */,
+				C94EF9752F89870900EB5101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C94EF9762F89870900EB5101 /* Build configuration list for PBXNativeTarget "Vaulté Privé" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C94EF9772F89870900EB5101 /* Debug */,
+				C94EF9782F89870900EB5101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C94EF9792F89870900EB5101 /* Build configuration list for PBXNativeTarget "Vaulté PrivéTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C94EF97A2F89870900EB5101 /* Debug */,
+				C94EF97B2F89870900EB5101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C94EF97C2F89870900EB5101 /* Build configuration list for PBXNativeTarget "Vaulté PrivéUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C94EF97D2F89870900EB5101 /* Debug */,
+				C94EF97E2F89870900EB5101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C94EF94D2F89870800EB5101 /* Project object */;
+}
